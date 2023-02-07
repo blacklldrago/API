@@ -21,6 +21,7 @@ const Delete1 = async function(id) {
         console.log(error);
     }
 }
+
 function getUser(ar){
     ar.forEach(element => {
         let box = document.querySelector(".box")
@@ -53,5 +54,4 @@ function getUser(ar){
         box.appendChild(card)
     });
 }
-
-
+getUser()

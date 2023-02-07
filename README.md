@@ -5,6 +5,7 @@
 
 # Asynchronous
 ## Asynchronous code runs in parallel. This means that an operation can occur while another one is still being processed.
+![alt text](./Synchronus.png)
 # setTimeout()
 ## The setTimeout() method executes a block of code after the specified time. The method executes the code only once.
 ## The commonly used syntax of JavaScript setTimeout is:
@@ -13,10 +14,11 @@
 - ### milliseconds - the time after which code executes
 ## The setTimeout() method returns an intervalID, which is a positive integer.
 
+![alt text](./set.png)
 # Callback()
 ## A function is a block of code that performs when we call it. 
 ## In JavaScript, you can also pass a function as an argument to a function. This function that is passed as an argument inside of another function is called a callback function.
-
+![alt text](./callback.jpeg)
 # Promise
 ## The way to handle asynchronous operation, we can understand that the operation successfully completed or not.
 ## It has three states :
@@ -24,6 +26,8 @@
 - ## Rejected
 - ## Pending
 ## A promise starts with pending. It explain that the program is loading and after this period it can be fullfilled that means accepted or rejected.
+
+![alt text](./promise.png)
 # To Create a promise object, we use Promise() constructor.
 ```JS
     let promise = new Promise(function(resolve, reject){
